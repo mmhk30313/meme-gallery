@@ -20,7 +20,7 @@ const index = ({data}: any) => {
                 <Link href="/home"><a>See home</a></Link>
             </h5>
             <Stats memes={data}/>
-            <footer className={"text-center"}>
+            <footer className={"text-center pb-2"}>
                 <Divider/>
                 <p>@ Md. Mehedi Hasan Khan {new Date().getFullYear()}</p>
             </footer>

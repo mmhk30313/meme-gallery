@@ -20,7 +20,7 @@ export default function Home({data}: any) {
                 <Link href="/stats"><a>See Stats</a></Link>
             </h5>
             <Main memes={data}/>
-            <footer className={"text-center"}>
+            <footer className={"text-center pb-2"}>
                 <Divider/>
                 <p>@ Md. Mehedi Hasan Khan {new Date().getFullYear()}</p>
             </footer>
