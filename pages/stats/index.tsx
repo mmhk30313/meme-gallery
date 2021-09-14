@@ -14,7 +14,7 @@ const index = ({data}: any) => {
             </Head>
 
             <div className="d-flex justify-content-center">
-                <h2 style={{width: 'fit-content'}} className="text-center my-4 p-3 border border-round">Meme Gallery</h2>
+                <h2 style={{width: 'fit-content'}} className="animate__flipOutX text-center my-4 p-3 border border-round">Stats</h2>
             </div>
             <h5 className="text-center mb-3" >
                 <Link href="/home"><a>See home</a></Link>

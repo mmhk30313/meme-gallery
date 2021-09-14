@@ -41,8 +41,8 @@ const Stats = ({memes}: any) => {
     // console.log({data});
     data = data?.reverse();
     return (
-        <div className="mt-2 px-3 py-5 mx-auto">
-            <Paper className="my-0 p-4 text-warning rounded shadow">
+        <div className="mt-2 w-75 px-4 py-5 mx-auto">
+            <Paper className="animate__heartBeat my-0 p-4 text-warning rounded shadow">
                 <Chart
                     data={data}
                 >
